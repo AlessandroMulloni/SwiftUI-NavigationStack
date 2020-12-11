@@ -2,6 +2,8 @@
 
 A very minimalistic navigation stack for SwiftUI NavigationView with push/pop operations and optional tags. It is meant to simplify the usage of NavigationView and NavigationLink.
 
+![](README.gif)
+
 # NavigationStack
 
 ## Installation
