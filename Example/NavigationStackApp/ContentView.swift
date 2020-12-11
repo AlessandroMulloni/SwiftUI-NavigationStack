@@ -18,7 +18,7 @@ struct ContentViewRoot: View {
                 Color.red.opacity(0.2).edgesIgnoringSafeArea(.all)
                 VStack{
                     NavigationLink(destination: ContentViewFirst(), isActive: self.$presentingFirst) { EmptyView() }
-                    Button("push") { self.navigationStack.push(self.$presentingFirst, tag: "ContentViewFirst") }
+                    Button("Push") { self.navigationStack.push(self.$presentingFirst, tag: "ContentViewFirst") }
                 }
                 .navigationBarTitle("Root")
             }
@@ -39,7 +39,7 @@ struct ContentViewFirst: View {
                 NavigationLink(destination: ContentViewSecond(), isActive: self.$presentingSecond) { EmptyView() }
 
                 Spacer()
-                Button("push") { self.navigationStack.push(self.$presentingSecond) }
+                Button("Push") { self.navigationStack.push(self.$presentingSecond) }
                 Spacer()
                 Button("Pop") { self.navigationStack.pop() }
                 Spacer()
@@ -63,9 +63,9 @@ struct ContentViewSecond: View {
                 NavigationLink(destination: ContentViewThirdB(), isActive: self.$presentingB) { EmptyView() }
 
                 Spacer()
-                Button("push A") { self.navigationStack.push(self.$presentingA) }
+                Button("Push A") { self.navigationStack.push(self.$presentingA) }
                 Spacer()
-                Button("push B") { self.navigationStack.push(self.$presentingB) }
+                Button("Push B") { self.navigationStack.push(self.$presentingB) }
                 Spacer()
                 Button("Pop") { self.navigationStack.pop() }
                 Spacer()
