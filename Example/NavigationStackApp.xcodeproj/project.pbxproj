@@ -11,7 +11,6 @@
 		D21BD3F62583B80A000E70B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21BD3EE2583B80A000E70B7 /* LaunchScreen.storyboard */; };
 		D21BD3F72583B80A000E70B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21BD3F02583B80A000E70B7 /* AppDelegate.swift */; };
 		D21BD3F82583B80A000E70B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21BD3F12583B80A000E70B7 /* ContentView.swift */; };
-		D21BD3F92583B80A000E70B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D21BD3F22583B80A000E70B7 /* Info.plist */; };
 		D21BD3FA2583B80A000E70B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21BD3F32583B80A000E70B7 /* SceneDelegate.swift */; };
 		D21BD4032583B87B000E70B7 /* SwiftUI-NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = D21BD4022583B87B000E70B7 /* SwiftUI-NavigationStack */; };
 /* End PBXBuildFile section */
@@ -60,9 +59,9 @@
 				D21BD3EB2583B80A000E70B7 /* Assets.xcassets */,
 				D21BD3EE2583B80A000E70B7 /* LaunchScreen.storyboard */,
 				D21BD3F02583B80A000E70B7 /* AppDelegate.swift */,
+				D21BD3F32583B80A000E70B7 /* SceneDelegate.swift */,
 				D21BD3F12583B80A000E70B7 /* ContentView.swift */,
 				D21BD3F22583B80A000E70B7 /* Info.plist */,
-				D21BD3F32583B80A000E70B7 /* SceneDelegate.swift */,
 			);
 			path = NavigationStackApp;
 			sourceTree = "<group>";
@@ -130,7 +129,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21BD3F92583B80A000E70B7 /* Info.plist in Resources */,
 				D21BD3F62583B80A000E70B7 /* LaunchScreen.storyboard in Resources */,
 				D21BD3F42583B80A000E70B7 /* Assets.xcassets in Resources */,
 			);
@@ -347,10 +345,10 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		D21BD4012583B87B000E70B7 /* XCRemoteSwiftPackageReference "SwiftUI-NavigationStack" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/alessandro/Work/Alessandro/GitHub/SwiftUI-NavigationStack";
+			repositoryURL = "../";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
