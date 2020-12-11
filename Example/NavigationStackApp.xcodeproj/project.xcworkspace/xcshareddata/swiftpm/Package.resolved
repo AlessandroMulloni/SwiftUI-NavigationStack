@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftUI-NavigationStack",
+        "repositoryURL": "/Users/alessandro/Work/Alessandro/GitHub/SwiftUI-NavigationStack",
+        "state": {
+          "branch": null,
+          "revision": "ed1697f2682a0a45775c2e5463a9c84b8f339cf1",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
