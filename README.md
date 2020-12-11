@@ -20,7 +20,7 @@ In XCode, when prompted for Version or branch, the suggestion is to use Branch: 
 
 Implements the stack and offers push and pop operations.
 
-### NavigationItem
+### NavigationStackItem
 
 A simple wrapper around Bool with a default initializer to ``false``.
 
