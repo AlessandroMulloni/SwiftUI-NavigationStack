@@ -1,2 +1,3 @@
 # SwiftUI-NavigationStack
-Navigation stack for the SwiftUI NavigationView
+
+A description of this package.
